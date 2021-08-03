@@ -4,12 +4,20 @@ import { useQuery } from '@apollo/client';
 import { QUERY_CATEGORIES } from '../../utils/queries';
 
 // import custom hook
-import { useStoreContext } from "../../utils/GlobalState";
+// import { useStoreContext } from "../../utils/GlobalState";
+
+import { useDispatch, useSelector } from 'react-redux';
 
 import { idbPromise } from '../../utils/helpers';
 
 function CategoryMenu() {
-  const [state, dispatch] = useStoreContext();
+  // const [state, dispatch] = useStoreContext();
+
+  const state = useSelector((state) => {
+    return state;
+  });
+  
+  const dispatch = useDispatch();
 
   const { categories } = state;
 
