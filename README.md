@@ -8,12 +8,12 @@
 
   ## Description
   This e-commerce application has been refactored from using the React Context API to using Redux. Redux is the industry standard when managing complex state in React applications.
+  
+  ### Deployed App
+  [Deployed App](https://rwyland-shop-shop.herokuapp.com/)
 
-    ### Deployed App
-    [Deployed App](https://rwyland-shop-shop.herokuapp.com/)
-
-    ### GitHub Repo
-    [GitHub Repo](https://github.com/rwyland189/shop-shop)
+  ### GitHub Repo
+  [GitHub Repo](https://github.com/rwyland189/shop-shop)
 
   ## Contributing
   Made with ❤️ by Becca Wyland.
